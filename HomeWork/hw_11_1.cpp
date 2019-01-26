@@ -20,13 +20,13 @@ int main(int argc, char *argv[])
     cout << "ПРОВЕРКА ДАННЫХ" << endl;
 
     char *str = "Проверка";
-    char *userStr = "0";
+    char userStr[50];
    
     while(true)
     {
         cout << "Введите слово \"" << *str << "\": ";
 
-        fgets(userStr);
+        gets(userStr);
         
         //if (userString == str) break;
 

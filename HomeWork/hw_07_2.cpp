@@ -60,8 +60,7 @@ int main(int argc, char *argv[])
     {
         cout << "Обнаружена ошибка с литером: "<< err_char << endl;
     }
-    
-   
+       
     cout << endl;
 
     return 0;
